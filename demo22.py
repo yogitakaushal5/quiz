@@ -3,18 +3,6 @@
 #assignment=22
 #program 1
 """
-a=int(input("enter the first number"))
-b=int(input("enter the second number"))
-for n in range(a,b+1):
-    s=0
-    while n>0:
-        if n%9==0:
-            s=s+n
-    print(s)
-or
-"""
-#program 1
-"""
 i=100
 s=0
 while i<=200:
@@ -23,10 +11,11 @@ while i<=200:
         s=s+i
         
     i+=1
-print("sum",s)       
-"""
-"""
+print("sum",s)
+"""       
+
 #program 2
+"""
 n=int(input("enter the number"))
 i=1
 while i<=n:
@@ -65,8 +54,8 @@ while i<=n:
     i+=1    
 """
 
+#program 10
 """
-#progame 10
 
 n=int(input("enter the n"))
 i=0
@@ -78,8 +67,10 @@ while i<n:
         j=j+1
     i+=1        
 """
-"""    
+
 #program 5
+
+"""    
 n=int(input("enter the n"))
 i=1
 while i<=n:
@@ -94,7 +85,7 @@ while i<=n:
 """
 
 #program 6        
-"""     
+"""    
 n=int(input("enter the n"))
 i=1
 while i<=n:
@@ -107,7 +98,7 @@ while i<=n:
         j=j+1
     i=i+1
 """
-#program 6
+
 
 """
     *
@@ -116,6 +107,7 @@ while i<=n:
  ****
 *****
 """ 
+#program 7
 """
 n=int(input("enter the n"))
 i=1
@@ -130,27 +122,8 @@ while i<=n:
         print("*",end=" ")
         j=j+1
     i=i+1
-    
-"""
-#program 8
-n=int(input("enter the n"))
+"""   
 
-i=1
-while i<=n:
-    print()
-    j=n-i
-    while j>=i:
-        print("5")
-        j=j-1
-    i=i+1    
-"""
-    j=6
-    while j>=i:
-        print(j,end=" ")
-        j=j-1
-    i=i+1
-         
-"""
         
     
     

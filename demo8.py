@@ -5,7 +5,8 @@
 """
 1. Electricity Department Billing System
 
-The electricity department of a city wants to automate the monthly bill generation process for its customers. The bill is calculated based on slab-wise unit consumption:
+The electricity department of a city wants to automate the monthly bill generation process for 
+its customers. The bill is calculated based on slab-wise unit consumption:
 
 First 100 units are charged at *5 per unit
 
@@ -13,7 +14,8 @@ Next 100 units (101-200) are charged at 7 per unit
 
 Units above 200 are charged at *10 per unit
 
-Write a Python program to calculate the total electricity bill based on the number of units consumed.
+Write a Python program to calculate the total electricity bill based on the number of units 
+consumed.
 
 Input:
 
@@ -25,20 +27,21 @@ Total Electricity Bill: ₹1950
 """
 #program 1
 """
-units = int(input("Enter units: "))
-if units <= 100:
-    bill = units * 5
-elif units <= 200:
-    bill = (100 * 5) + (units - 100) * 7
+units=int(input("enter units:= "))
+if units<=100:
+    bill=units*5
+elif units<=200:
+    bill=(100*5)+(units-100)*7
 else:
-    bill = (100 * 5) + (100 * 7) + (units - 200) * 10
-print("Total Electricity Bill=", bill)
+    bill=(100 * 5)+(100 * 7)+(units - 200)*10
+print("Total Electricity Bill:=", bill)
 """
 
 """
 2. College Result Processing System
 
-A college wants to generate grades for students automatically based on their marks in an exam. The grading criteria are as follows:
+A college wants to generate grades for students automatically based on their marks in an exam.
+ The grading criteria are as follows:
 
 90 and above 'n Grade A
 
@@ -65,7 +68,7 @@ Grade: C
 
 # program 2
 """
-marks = int(input("Enter marks: "))
+marks=int(input("enter marks:= "))
 if marks >= 90:
     grade = "A"
 elif marks >= 75:
@@ -76,7 +79,7 @@ elif marks >= 50:
     grade = "D"
 else:
     grade = "Fail"
-print("Grade:", grade)
+print("Grade:=", grade)
 """
 
 """
@@ -107,15 +110,15 @@ Tax Payable: ₹110000
 
 # program 3
 """
-income = int(input("Enter annual income: "))
-if income <= 250000:
-    tax = 0
-elif income <= 500000:
-    tax = income * 0.05
-elif income <= 1000000:
-    tax = income * 0.20
+income=int(input("enter annual income:= "))
+if income<=250000:
+    tax=0
+elif income<=500000:
+    tax=income*0.05
+elif income<=1000000:
+    tax=income*0.20
 else:
-    tax = income * 0.30
+    tax=income*0.30
 print("Tax Payable:=", tax)
 """
 
@@ -146,14 +149,14 @@ Final Amount: ₹4050
 
 #program 4
 """
-amount = int(input("Enter purchase amount: "))
-if amount > 5000:
-    final = amount * 0.80
-elif amount >= 2000:
-    final = amount * 0.90
+amount=int(input("enter purchase amount:= "))
+if amount>5000:
+    final=amount*0.80
+elif amount>=2000:
+    final=amount*0.90
 else:
-    final = amount * 0.95
-print("Final Amount: =", final)
+    final=amount*0.95
+print("Final Amount:=", final)
 """
 
 """
@@ -181,14 +184,14 @@ Ticket Price: ₹100
 
 #program 5
 """
-age = int(input("Enter age: "))
-if age < 12:
-    print("Ticket Price:=100")
+age=int(input("enter age:= "))
+if age<12:
+    print("ticket price:=100")
 
-elif age <= 60:
-   print("Ticket Price:=200")
+elif age<=60:
+   print("ticket price:=200")
 else:
-    print("Ticket Price:= 150")
+    print("ticket price:= 150")
 """
 
 """
@@ -219,16 +222,16 @@ Bonus Amount: ₹5000
 
 # program 6
 """
-salary = int(input("Enter salary: "))
-years = int(input("Enter years of experience: "))
-if years > 10:
-    bonus = salary * 0.20
-elif years >= 5:
-    bonus = salary * 0.10
-elif years >= 2:
-    bonus = salary * 0.05
+salary=int(input("Enter salary:= "))
+years=int(input("Enter years of experience:= "))
+if years>10:
+    bonus=salary*0.20
+elif years>=5:
+    bonus=salary*0.10
+elif years>=2:
+    bonus=salary*0.05
 else:
-    bonus = 0
+    bonus=0
 print("Bonus Amount: =", bonus)
 """
 
@@ -259,16 +262,16 @@ Maximum Withdrawal Limit: ₹1000
 
 # program 7
 """
-balance = int(input("Enter account balance: "))
+balance=int(input("enter account balance:= "))
 if balance < 1000:
     limit = 0
-    print("Withdrawal not allowed")
+    print("withdrawal not allowed")
 elif balance <= 5000:
     limit = 1000
-    print("Maximum Withdrawal Limit:", limit)
+    print("maximum withdrawal limit:=", limit)
 else:
     limit = 5000
-    print("Maximum Withdrawal Limit:", limit)
+    print("maximum withdrawal limit:=", limit)
     """
     
     
@@ -294,7 +297,7 @@ Weather Condition: Hot
 """
 # program 8
 """
-t=int(input("Enter temperature: "))
+t=int(input("Enter temperature:= "))
 
 if t<0:
     print("Weather Condition: Freezing")
@@ -330,7 +333,7 @@ Status: Not Eligible
 """
 # program 9
 """
-att=int(input("Enter attendance percentage: "))
+att=int(input("enter attendance percentage:= "))
 
 if att>=75:
     print("Status: Eligible")
@@ -364,7 +367,7 @@ Recommended Plan: Basic Plan
 """
 # program 10
 """
-d=float(input("Enter daily data usage: "))
+d=float(input("Enter daily data usage:= "))
 
 if d>3:
     print("Recommended Plan: Premium Plan")
@@ -446,7 +449,7 @@ Final Bill Amount: ₹4680
 """
 # program 12
 """
-bill=int(input("Enter bill amount: "))
+bill=int(input("enter bill amount:= "))
 
 if bill<=1000:
     gst=bill*(5/100)
@@ -460,7 +463,7 @@ total=bill+gst
 if bill>3000:
     total=total+200
 
-print("Final Bill Amount: ₹",total)
+print("Final Bill Amount:=",total)
 
 """
 
@@ -492,8 +495,8 @@ Revised Salary: ₹23600
 """
 # program 13
 """
-sal=int(input("Enter salary: "))
-r=int(input("Enter rating: "))
+sal=int(input("Enter salary:= "))
+r=int(input("Enter rating:= "))
 
 if r==5:
     inc=sal*(25/100)
@@ -511,7 +514,7 @@ total=sal+inc
 if sal<20000 and r>=4:
     total=total+2000
 
-print("Revised Salary: ₹",total)
+print("Revised Salary:=",total)
 """
 
 
@@ -542,8 +545,8 @@ Final Course Fee: ₹4000
 """
 # program 14
 """
-course=input("Enter course category: ")
-user=input("Enter user type: ")
+course=input("enter course category: ")
+user=input("enter user type: ")
 
 if course=="Programming":
     fee=5000
@@ -582,8 +585,8 @@ Output:
 Total Parking Fee: ₹220
 """
 #program 15
-v=input("Enter vehicle type: ")
-h=int(input("Enter hours parked: "))
+v=input("Enter vehicle type:= ")
+h=int(input("Enter hours parked:= "))
 
 if v=="Bike":
     rate=10
@@ -597,4 +600,4 @@ total=rate*h
 if h>5:
     total=total+100
 
-print("Total Parking Fee: ₹",total)
+print("Total Parking Fee:=",total)

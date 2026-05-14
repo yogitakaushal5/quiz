@@ -30,7 +30,6 @@ Not Prime
 """
 n=int(input("Enter Number: "))
 
-# sum of digits
 temp=n
 sum_d=0
 while temp>0:
@@ -38,7 +37,6 @@ while temp>0:
     sum_d+=d
     temp//=10
 
-# reverse
 temp=n
 rev=0
 while temp>0:
@@ -49,7 +47,6 @@ while temp>0:
 diff=abs(n-rev)
 final=sum_d+diff
 
-# prime check
 count=0
 i=1
 while i<=final:
@@ -114,7 +111,6 @@ while temp>0:
 
 diff=prod-sum_d
 
-# count digits
 temp=diff
 count_d=0
 while temp>0:
@@ -123,7 +119,6 @@ while temp>0:
 
 final=diff+count_d
 
-# prime
 c=0
 i=1
 while i<=final:
@@ -153,7 +148,7 @@ else:
 #program 3
 
 """
-n=int(input("Enter Number: "))
+n=int(input("Enter Number:= "))
 sum_f=0
 
 for i in range(1,n):
@@ -260,7 +255,6 @@ while n>0:
     pos+=1
     n//=10
 
-# prime check
 count=0
 for i in range(1,sum_alt+1):
     if sum_alt%i==0:
@@ -322,7 +316,7 @@ while i<=km:
 #program 10
 
 """
-mode=int(input("Enter Mode: "))
+mode=int(input("Enter Mode:= "))
 
 if mode==1:
     c=int(input("Enter Current Floor: "))

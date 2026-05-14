@@ -16,10 +16,7 @@ Write a program to calculate the final payable amount using inline if only.
 amount = float(input("Enter Amount: "))
 customer = input("Enter Customer Type (premium/regular): ")
 
-discount = amount*0.20 if customer=="premium" and amount>5000 else \
-           amount*0.10 if customer=="premium" else \
-           amount*0.10 if customer=="regular" and amount>3000 else \
-           amount*0.05
+discount = amount*0.20 if customer=="premium" and amount>5000 else amount*0.10 if customer=="premium" else amount*0.10 if customer=="regular" and amount>3000 else amount*0.05
 
 final = amount - discount
 
@@ -42,7 +39,7 @@ Write a program using a single nested inline if expression to display the grade.
 
 #program 2
 
-marks = int(input("Enter Marks: "))
+marks = int(input("Enter Marks:= "))
 
 grade = "A+" if marks>=90 else \
         "A" if marks>=75 else \

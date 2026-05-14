@@ -64,7 +64,7 @@ basic =0
 
 while True:
 
-    print("\n1. Enter Basic Salary")
+    print("1. Enter Basic Salary")
     print("2. Calculate HRA and DA")
     print("3. Calculate Net Salary")
     print("4. Tax Deduction")
@@ -84,7 +84,7 @@ while True:
                 print("Please enter basic salary first")
 
             else:
-                hra = basic * 20 / 100
+                hra=basic*20/100
                 da = basic * 10 / 100
 
                 print("HRA:", hra)
@@ -97,7 +97,7 @@ while True:
             else:
                 net = basic + hra + da
 
-                print("Net Salary (before tax):", net)
+                print("Net Salary before tax:", net)
 
         case 4:
             if basic==0:
@@ -119,7 +119,7 @@ while True:
                 print("Please enter basic salary first")
 
             else:
-                print("\n----- Salary Slip -----")
+                print("----- Salary Slip -----")
                 print("Basic Salary:", basic)
                 print("HRA:", hra)
                 print("DA:", da)
@@ -144,7 +144,7 @@ balance = 0
 
 while True:
 
-    print("\n1. Deposit Money")
+    print("1. Deposit Money")
     print("2. Withdraw Money")
     print("3. Check Balance")
     print("4. Apply Interest")
@@ -221,7 +221,7 @@ units = 0
 
 while True:
 
-    print("\n1. Enter Units Consumed")
+    print("1. Enter Units Consumed")
     print("2. Calculate Bill Amount")
     print("3. Apply Surcharge")
     print("4. Display Final Bill")
@@ -233,7 +233,7 @@ while True:
 
         case 1:
 
-            units = int(input("Enter units consumed: "))
+            units = int(input("Enter units consumed:= "))
 
             print("Units recorded successfully")
 
@@ -284,7 +284,7 @@ while True:
 
             else:
 
-                print("\n----- Final Bill -----")
+                print("----- Final Bill -----")
                 print("Units:", units)
                 print("Bill Amount:", bill)
                 print("Surcharge:", surcharge)

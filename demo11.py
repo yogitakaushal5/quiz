@@ -17,11 +17,11 @@ Output: Total Points = 55
 
 #program 1
 """
-n=int(input("Enter n: "))
+n=int(input("Enter n:= "))
 s=0
 for i in range(1,n+1):
     s=s+i
-print("Total Points =",s)
+print("Total Points:=",s)
 """
 
 
@@ -42,11 +42,11 @@ Output: Total Ways = 120
 
 #program 2
 """
-n=int(input("Enter n: "))
+n=int(input("Enter n:= "))
 f=1
 for i in range(1,n+1):
     f=f*i
-print("final ans =",f)
+print("final ans:=",f)
 """
 
 
@@ -111,7 +111,7 @@ Output: Palindrome
 
 #program 5
 """
-n=int(input("Enter number: "))
+n=int(input("Enter number:= "))
 temp=n
 rev=0
 while n>0:
@@ -141,7 +141,7 @@ Output: Armstrong
 
 #program 6
 """
-n=int(input("Enter number: "))
+n=int(input("Enter number:= "))
 temp=n
 s=0
 while n>0:
@@ -171,7 +171,7 @@ Output: Even digits count = 3
 
 #program 7
 """
-n=int(input("Enter number: "))
+n=int(input("Enter number:= "))
 c=0
 while n>0:
     d=n%10
@@ -226,7 +226,7 @@ Output: Not All Even
 
 #program 9
 """
-n=int(input("Enter number: "))
+n=int(input("Enter number:= "))
 flag=1
 while n>0:
     d=n%10
@@ -255,8 +255,8 @@ Output: 10 12 14 16 18 20
 
 #program 10
 """
-a=int(input("Enter first number: "))
-b=int(input("Enter second number: "))
+a=int(input("Enter first number:= "))
+b=int(input("Enter second number:= "))
 for i in range(a,b+1):
     if i%2==0:
         print(i,end=" ")

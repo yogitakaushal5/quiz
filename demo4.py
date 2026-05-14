@@ -158,38 +158,45 @@ Expected Output:
 In MB = 5120.0
 In KB = 5242880.0
 """
-
+"""
 data_gb=5
 
 mb=data_gb*1024
 kb=mb*1024
 print("in MB:=", mb)
 print("in KB:=", kb)
-
+"""
 
 """
 Assignment 7: Cricket Run Rate
 
-In cricket, overs are given in decimal format (e.g., 48.3 means 48 overs and 3 balls). Convert overs into total balls and calculate run rate.
+In cricket, overs are given in decimal format (e.g., 48.3 means 48 overs and 3 balls). 
+Convert
+overs into total balls and calculate run rate.
 
 Input:
-Total runs = 275
+Total runs=275
 Overs = 48.3
 
 Expected Output:
-Total Balls = 291
-Run Rate = 5.67
+Total Balls=291
+Run Rate=5.67
 """
 
 """
-runs = 275
-overs = 48.3
-total_balls = 48 * 6 + 3
-run_rate = runs / (total_balls / 6)
+runs=275
+overs=48.3
 
-print("Total Balls =", total_balls)
-print("Run Rate =", round(run_rate, 2))
+overs_part=int(overs)
+balls_part=int((overs-overs_part)*10)
+total_balls=overs_part*6+balls_part
+run_rate=runs*6/total_balls
+print("Total Balls:=",total_balls)
+print("Run Rate:=", round(run_rate, 2))
+
 """
+
+
 """
 Assignment 8: Compound Interest
 
@@ -204,20 +211,20 @@ Expected Output:
 Amount after interest = 11025.0
 """
 """
-principal = 10000
-rate = 5
-time = 2
+principal=10000
+rate=5
+time=2
 
-# Compound Interest Formula
-amount = principal * (1 + rate/100) ** time
+amount=principal*(1+rate/100)**time
 
-print("Amount after interest =", amount)
+print("Amount after interest:=", amount)
 """
 
 """
 Assignment 9: Petrol Cost Calculation
 
-You traveled a certain distance. Based on mileage and petrol price, calculate fuel used and total cost.
+You traveled a certain distance. Based on mileage and petrol price, calculate fuel used and 
+total cost.
 
 Input:
 Distance = 450 km
@@ -232,8 +239,9 @@ Total Cost = 3300.0
 used=450/15
 cost=used*110
 
-print("Petrol Used =",used,"litres")
-print("Total Cost =",cost)
+print("petrol used:=",used)
+print("total cost:=",cost)
+
 """
 """
 Assignment 10: Time Conversion

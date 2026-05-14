@@ -4,7 +4,7 @@
 
 #program 29
 #diagonal number square
-
+"""
 n=int(input("enter the n"))
 i=1
 while i<=n:
@@ -18,10 +18,11 @@ while i<=n:
             print("-" , end=" ")
         j=j+1
     i=i+1    
-
 """
+
 #program 10
 # slanted star block
+"""
 n=int(input("enter the n"))
 i=1
 while i<=n:

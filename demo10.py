@@ -27,7 +27,7 @@ Card Type = Silver Card
 
 #program 1
 """
-income=int(input("Enter Income: "))
+income=int(input("Enter Income:= "))
 credit=int(input("Enter Credit Score:= "))
 emp=input("Enter Employment:= ")
 debt=int(input("Enter Debt:= "))
@@ -45,7 +45,7 @@ if income>=50000:
             else:
                 print("Rejected")
         else:
-            print("Card Type = Rejected")
+            print("Rejected")
 else:
     if income>=30000:
         if credit>=700:
@@ -85,9 +85,9 @@ Treatment = Immediate ICU
 #program 2
 
 """
-age=int(input("Enter Age: "))
-severity=input("Enter Severity: ")
-insurance=input("Insurance (yes/no): ")
+age=int(input("Enter Age:=  "))
+severity=input("Enter Severity:=")
+insurance=input("Insurance (yes/no):= ")
 
 if severity=="critical":
     if age>=60:
@@ -154,7 +154,7 @@ else:
         if income<=200000:
             print("50% Scholarship")
         else:
-            print("25% Scholarship")00
+            print("25% Scholarship")
     else:
         print(" No Scholarship")
 """
@@ -193,18 +193,18 @@ book=input("Enter Booking:= ")
 
 if clas=="business":
     if dist>1000:
-        print("Ticket Price = 8000")
+        print("Ticket price = 8000")
     else:
-        print("Ticket Price = 5000")
+        print("Ticket price = 5000")
 else:
     if clas=="economy":
         if dist>1000:
             if book=="early":
-                print("Ticket Price = 4000")
+                print("Ticket price = 4000")
             else:
-                print("Ticket Price = 5000")
+                print("Ticket price = 5000")
         else:
-            print("Ticket Price = 2500")
+            print("Ticket price = 2500")
 
 """
 
@@ -235,26 +235,26 @@ Result = Reappear
 
 """
 
-marks=int(input("Enter Marks:= "))
-att=int(input("Enter Attendance:= "))
-internal=int(input("Enter Internal:="))
+marks=int(input("Enter marks:= "))
+att=int(input("Enter attendance:= "))
+internal=int(input("Enter internal:="))
 
 if marks>=40:
     if att>=75:
         if internal>=20:
-            print("Result = Pass")
+            print("Result=Pass")
         else:
-            print("Result = Grace Pass")
+            print("Result=Grace Pass")
     else:
-        print("Result = Detained")
+        print("Result=Detained")
 else:
     if marks>=35:
         if internal>=25:
-            print("Result = Reappear")
+            print("Result=Reappear")
         else:
-            print("Result = Fail")
+            print("Result=Fail")
     else:
-        print("Result = Fail")
+        print("Result=Fail")
 """
 
 
@@ -279,10 +279,10 @@ device is new, mark Medium Risk; otherwise Low Risk. If no unusual activity,
 """
 """
 
-amt=int(input("Enter Amount: "))
-loc=input("Enter Location: ")
-dev=input("Enter Device: ")
-tx=int(input("Enter Transactions: "))
+amt=int(input("Enter Amount:= "))
+loc=input("Enter Location:= ")
+dev=input("Enter Device:= ")
+tx=int(input("Enter Transactions:= "))
 
 if amt>=50000:
     if loc=="international":
@@ -299,7 +299,7 @@ if amt>=50000:
         else:
             print("Low Risk")
 else:
-    ua=input("Unusual Activity (yes/no): ")
+    ua=input("Unusual Activity (yes/no):= ")
     if ua=="yes":
         if dev=="new":
             print("Medium Risk")
@@ -340,29 +340,29 @@ Result = First Class with Distinction
 #program 7
 """
 
-marks=int(input("Enter Marks: "))
-back=int(input("Enter Backlogs: "))
-proj=int(input("Enter Project Score: "))
+marks=int(input("Enter marks:= "))
+back=int(input("Enter backlogs:= "))
+proj=int(input("Enter project score:= "))
 
 if marks>=75:
     if back==0:
         if proj>=80:
-            print("Result = First Class with Distinction")
+            print("First Class with Distinction")
         else:
-            print("Result = First Class")
+            print("First Class")
     else:
-        print("Result = First Class")
+        print(" First Class")
 else:
     if marks>=60 and marks<=74:
         if back<=2:
-            print("Result = Second Class")
+            print("Second Class")
         else:
-            print("Result = Pass Class")
+            print("Pass Class")
     else:
         if marks>=50 and marks<=59:
-            print("Result = Pass")
+            print("Pass")
         else:
-            print("Result = Fail")
+            print(" Fail")
 """
 
 """
@@ -393,33 +393,33 @@ Discount = 20%
 #program 8
 """
 
-demand=int(input("Enter Demand: "))
-stock=int(input("Enter Stock: "))
-user=input("Enter User Type: ")
+demand=int(input("Enter demand: "))
+stock=int(input("Enter stock: "))
+user=input("Enter user type: ")
 festival=input("Festival (yes/no): ")
 
 if demand>=80:
     if stock<50:
         if user=="premium":
             if festival=="yes":
-                print("Discount = 20%")
+                print("Discount=20%")
             else:
-                print("Discount = 10%")
+                print("Discount=10%")
         else:
-            print("Discount = No Discount")
+            print("No Discount")
     else:
-        print("Discount = 5%")
+        print("Discount=5%")
 else:
     if demand>=40 and demand<=79:
         if festival=="yes":
-            print("Discount = 10%")
+            print("Discount=10%")
         else:
-            print("Discount = No Discount")
+            print("No Discount")
     else:
         if stock>200:
-            print("Discount = 15%")
+            print("Discount=15%")
         else:
-            print("Discount = No Discount")
+            print("No Discount")
 """
 
 
@@ -451,36 +451,36 @@ Loan Status = Approved at 8%
 #program 9
 """
 
-salary=int(input("Enter Salary: "))
-age=int(input("Enter Age: "))
-credit=int(input("Enter Credit Score: "))
-emi=int(input("Enter EMI: "))
+salary=int(input("Enter Salary:= "))
+age=int(input("Enter Age:= "))
+credit=int(input("Enter Credit Score:= "))
+emi=int(input("Enter EMI:= "))
 
 if salary>=40000:
     if age>=21:
         if age<=60:
             if credit>=750:
                 if emi<=0.4*salary:
-                    print("Loan Status = Approved at 8%")
+                    print("Approved at 8%")
                 else:
-                    print("Loan Status = Approved at 10%")
+                    print(" Approved at 10%")
             else:
                 if credit>=650:
-                    print("Loan Status = Approved at 12%")
+                    print(" Approved at 12%")
                 else:
-                    print("Loan Status = Rejected")
+                    print("Rejected")
         else:
-            print("Loan Status = Rejected")
+            print("Rejected")
     else:
-        print("Loan Status = Rejected")
+        print("Rejected")
 else:
     if salary>=25000:
         if credit>=700:
-            print("Loan Status = Approved at 13%")
+            print("Approved at 13%")
         else:
-            print("Loan Status = Rejected")
+            print("Rejected")
     else:
-        print("Loan Status = Rejected")
+        print(" Rejected")
 """
 
 
@@ -514,10 +514,10 @@ Selection Status = Selected
 #program 10
 
 """
-age=int(input("Enter Age: "))
-bmi=float(input("Enter BMI: "))
-run=int(input("Enter Running Time: "))
-medical=input("Medical (fit/unfit): ")
+age=int(input("Enter age:= "))
+bmi=float(input("Enter BMI:= "))
+run=int(input("Enter Running Time= "))
+medical=input("Medical (fit/unfit):= ")
 
 if age>=18:
     if age<=25:
@@ -525,26 +525,25 @@ if age>=18:
             if bmi<=25:
                 if run<=15:
                     if medical=="fit":
-                        print("Selection Status = Selected")
+                        print("Selected")
                     else:
-                        print("Selection Status = Medical Rejected")
+                        print("Medical Rejected")
                 else:
-                    print("Selection Status = Physical Fail")
+                    print("Physical Fail")
             else:
-                print("Selection Status = BMI Fail")
+                print("BMI Fail")
         else:
-            print("Selection Status = BMI Fail")
+            print("BMI Fail")
     else:
         if age<=30:
             if run<=14:
                 if medical=="fit":
-                    print("Selection Status = Conditional Selection")
+                    print("Conditional Selection")
                 else:
-                    print("Selection Status = Rejected")
+                    print("Rejected")
             else:
-                print("Selection Status = Rejected")
+                print("Rejected")
         else:
-            print("Selection Status = Not Eligible")
+            print("Not Eligible")
 else:
-    print("Selection Status = Not Eligible")
-"""
+    print("Not Eligible")

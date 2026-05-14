@@ -18,8 +18,8 @@ Allowed inside booth
 """
 
 """
-age=int(input("Enter age: "))
-id=input("Do you have ID (yes/no): ")
+age=int(input("Enter age:= "))
+id=input("do you have ID (yes/no):= ")
 
 if age>=18:
     print("Eligible to vote")
@@ -44,7 +44,7 @@ Distinction
 """
 
 """
-marks=int(input("Enter the marks:"))
+marks=int(input("enter the marks:="))
 if marks>=40:
     print("Pass")
 if marks>=75:
@@ -67,9 +67,9 @@ Discount coupon unlocked
 """
 
 """
-cart_value=int(input("Enter the cart value:"))
+cart_value=int(input("enter the cart value:="))
 if cart_value>=500:
-    print("Free delivery applied")
+    print("Free delivery")
 if cart_value>=1000:
     print("Discount coupon unlocked")
 """
@@ -90,8 +90,8 @@ Gym access granted
 Enroll in weight loss program
 """
 """
-age=int(input("Enter the age:"))
-bmi=float(input("Enter BMI:"))
+age=int(input("enter the age:="))
+bmi=float(input("enter BMI:="))
 if age>18:
     print("Gym access granted")
 if bmi>25:
@@ -141,8 +141,8 @@ High humidity alert
 """
 
 """
-temp=int(input("Enter temperature: "))
-hum=int(input("Enter humidity: "))
+temp=int(input("Enter temperature:= "))
+hum=int(input("Enter humidity:= "))
 
 if temp>=30:
     print("Hot day")
@@ -167,7 +167,7 @@ Bonus applicable
 """
 
 """
-sal=int(input("Enter salary: "))
+sal=int(input("Enter salary:= "))
 
 if sal>=30000:
     print("PF applicable")

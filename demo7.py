@@ -19,7 +19,7 @@ Output:
 Loan Status = Conditional Approval
 """
 """
-sal=int(input("enter the salary: "))
+sal=int(input("enter the salary:= "))
 cs=int(input("enter the credit score"))
 loan=int(input("enter existing loan"))
 if sal>=30000:
@@ -54,16 +54,16 @@ Final Amount = 4800
 """
 
 """
-cart=int(input("Enter Cart Value: "))
-user=input("Enter User Type: ")
+cart=int(input("enter cart value: "))
+user=input("enter user type: ")
 
 if cart>=5000:
     if user=="premium":
         amt=cart-(cart*20/100)
-        print(" 20% discount  final amount", amt)
+        print(" 20% discount final amount", amt)
     else:
         amt=cart-(cart*10/100)
-        print("10% discount  final amount",amt)
+        print("10% discount final amount",amt)
 else:
     if cart>=2000:
         amt=cart-(cart*5/100)
@@ -91,18 +91,18 @@ Output: Usage Category = Moderate Usage
 """
 
 """
-units=int(input("Enter Units: "))
+units=int(input("Enter Units:= "))
 
 if units>=100:
     if units>=300:
-        print("Usage Category = High Usage")
+        print("High Usage")
     else:
         if units>=200:
-            print("Usage Category = Moderate Usage")
+            print("Moderate Usage")
         else:
-            print("Usage Category = Normal Usage")
+            print("Normal Usage")
 else:
-    print("Usage Category = Low Usage")
+    print("Low Usage")
 """
 
 """
@@ -128,18 +128,18 @@ Plan = Cardio Plan
 """
 
 """
-age=int(input("Enter Age: "))
-wt=int(input("Enter Weight: "))
-goal=input("Enter Goal(weight loss): ")
+age=int(input("enter age: "))
+wt=int(input("enter weight: "))
+goal=input("enter goal weight loss:= ")
 
 if age>=18:
     if wt>=80:
         if goal=="weight loss":
-            print("Plan = Cardio Plan")
+            print("Cardio Plan")
         else:
-            print("Plan = Strength Plan")
+            print("Strength Plan")
     else:
-        print("Plan = General Fitness Plan")
+        print("General Fitness Plan")
 else:
     print("Not Allowed")
 """
@@ -165,9 +165,9 @@ Output:
 Transaction Successful
 """
 """
-bal=int(input("Enter Balance: "))
-amt=int(input("Enter Withdrawal Amount: "))
-pin=input("Enter PIN status: ")
+bal=int(input("enter balance:= "))
+amt=int(input("Enter Withdrawal Amount:= "))
+pin=input("Enter PIN status:= ")
 
 if bal>=amt:
     if amt<=10000:
